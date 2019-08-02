@@ -251,11 +251,34 @@ h3 {
     align-items: center;
 }
 
+.more_info_images {
+    width: 200px;
+    height:120px;
+    border-radius: 15px;
+}
+
+.info_des {
+    width: 200px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.info_bubbles {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.info_bubbles:hover{
+    transform: scale(1.2);
+
+}
+
 /* for the scroll smooth to work, you need to place this
 in the last section, so that will be contact info. */
-#contact_info {
+/* #contact_info {
     margin-bottom: 200px;
-}
+} */
 
 
 
