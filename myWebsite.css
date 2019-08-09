@@ -1,4 +1,5 @@
 #entrance_page {
+    display:none;
     position: absolute;
     height: 610px;
     width: 1280px;
@@ -37,12 +38,16 @@
 }
 
 .hiding_div {
-    display:none;
+    display:block;
 } 
 
 #videos {
     display: flex;
     justify-content: space-around;
+}
+
+.videos {
+    border-radius: 20px;
 }
 
 html {
@@ -56,7 +61,8 @@ body {
 
 .sections {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(240, 237, 237);
+    background-color: rgb(30,48,84);
+    color: white;
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -64,13 +70,19 @@ body {
 .the_major_divs {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
+    color: rgb(40, 59, 98);
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-h2{
-    text-align:center;
+.the_major_divs h2 {
+    color: rgb(40, 59, 98);
 }
+
+.sections h2 {
+    color: rgb(207, 174, 8);
+}
+
 
 h3 {
     text-align: center;
@@ -177,6 +189,8 @@ h3 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: 2px solid rgb(40, 59, 98);
+    padding: 3px;
 }
 
 #me_image_div {
@@ -263,9 +277,15 @@ h3 {
     flex-direction: row;
 }
 
+.grade_names {
+    color:rgb(207, 174, 8);
+    font-size: 18px;
+}
+
 #academics_1 img{
-    width: 500px;
-    height: 350px;
+    width: 450px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 .containers_flex{
@@ -277,10 +297,6 @@ h3 {
     font-size: 12px;
     width: 225px;
     text-align: center;
-}
-
-.case_images{
-    border-radius: 50%;
 }
 
 .case_titles {
@@ -305,7 +321,9 @@ h3 {
 .icons {
     width: 60px;
     height: 60px;
-    background-color: rgb(19,190,225);
+    /* background-color: rgb(19,190,225); */
+    border: 1px solid rgb(207, 174, 8);
+    padding: 5px;
     border-radius: 50%;
     color: white;
     display: flex;
