@@ -150,8 +150,16 @@ h3 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid rgb(40, 59, 98);
     padding: 3px;
+    background: linear-gradient(90deg, red, blue, green, aqua, purple);
+    background-size: 1800% 1800%;
+    animation: rainbow 18s ease infinite;
+}
+
+@keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
 }
 
 #me_image_div {
