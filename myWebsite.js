@@ -29,17 +29,17 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-welcomeButton.onclick = function() {
-    websitePage.style.display = "block";
-    entrancePage.style.display = "none";
-}
+// welcomeButton.onclick = function() {
+//     websitePage.style.display = "block";
+//     entrancePage.style.display = "none";
+// }
 
-welcome.onmouseover =  function() {
-    welcome.style.color = "white";
-}
+// welcome.onmouseover =  function() {
+//     welcome.style.color = "white";
+// }
 
-welcome.onmouseout = function() {
-    welcome.style.color = "transparent";
-}
+// welcome.onmouseout = function() {
+//     welcome.style.color = "transparent";
+// }
     
 

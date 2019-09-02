@@ -22,7 +22,7 @@ body {
 
 .sections {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(30,48,84);
+    background: linear-gradient(-145deg,#25408f,#005e91 45%,#005e91 55%,#003592);
     color: white;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -340,6 +340,31 @@ in the last section, so that will be contact info. */
 .info_bubbles {
     color:rgb(0,51,102);
 }
+
+#top_button {
+    max-width: 7%;
+    height: 15%;
+    z-index: 1;
+    position: fixed;
+    bottom: 6%;
+    right: 2%;
+}
+
+#top_button:hover {
+    
+}
+
+#backtotop_text {
+    color: #5DBCD2;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 92%;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
 
 
 
